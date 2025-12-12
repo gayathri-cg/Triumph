@@ -58,7 +58,6 @@ export const members: Member[] = [
     bio: "A third-year CSE student building a strong technical base and working toward a career in the IT field. Interested in coding and committed to learning and improving consistently. Experience in arts has strengthened creativity and teamwork.",
     socials: {
       instagram: "https://www.instagram.com/_devika.bs?igsh=ajk1ZHJ5emUyaWd0",
-      twitter: "#",
       linkedin: "https://linkedin.com/in/devika-das-71b851375"
     }
   },
@@ -68,7 +67,7 @@ export const members: Member[] = [
     name: "Gopika Binish K",
     role: "CS Student — Member",
     image: "/gopika.jpeg",
-    bio: "I am an engineering student passionate about learning and growing in my field. I am driven to achieve my goals and aspire to secure a challenging role in a reputable organization where I can contribute and excel.",
+    bio: "I am an engineering student passionate about learning and growing in my field. Driven to achieve my goals and aspiring to secure a challenging role in a reputable organization where I can contribute and excel.",
     socials: {
       instagram: "https://www.instagram.com/gopiiy_?igsh=MTZqdng3a2VhNnYydw",
       linkedin: "http://linkedin.com/in/gopikabinishk"
@@ -77,10 +76,33 @@ export const members: Member[] = [
 
   {
     id: "6",
+    name: "Milan Mathews P B",
+    role: "CS Student - Member",
+    image: "/milan.jpeg",
+    bio: "Motivated and detail-oriented Computer Science Engineering student with strong technical skills in programming, database management, and web technologies. Experienced in creative design and video editing, with proficiency in Adobe After Effects and Photoshop. Skilled in developing clean, efficient solutions and producing visually compelling digital content.",
+    socials: {
+      instagram: "https://www.instagram.com/m_lan._?igsh=MWNxMGJhaGpxeG9mdg=="
+    }
+  },
+
+  {
+    id: "7",
+    name: "Gautham Krishna M Sudheer",
+    role: "CS Student — Member",
+    image: "/gowtham.jpeg",
+    bio: "Motivated B.Tech CSE student currently building skills in programming, databases, and web development. Experienced in creating beginner-level projects like hospital appointment systems and online notice board platforms. Eager to learn, explore new tools, and gain hands-on experience.",
+    socials: {
+      instagram: "https://www.instagram.com/gauthamsudheer_?igsh=MWs2ZjlmeWNlb3dlag==",
+      linkedin: "https://www.linkedin.com/in/gauthamsudheer001/"
+    }
+  },
+
+  {
+    id: "8",
     name: "Gayathri C G",
-    role: "Vice captain",
+    role: "Vice Captain",
     image: "/gayathri.jpeg",
-    bio: "Computer Science student with a passion for problem solving and innovation. Seeking opportunities to apply technical skills in software development, data analysis, and algorithm design to contribute to cutting-edge projects and advance in the field of technology.",
+    bio: "Computer Science student with a passion for problem-solving and innovation. Seeking opportunities to apply technical skills in software development, data analysis, and algorithm design to contribute to cutting-edge projects.",
     socials: {
       instagram: "https://www.instagram.com/gayathri_c_g?igsh=MWJ3MXhkdGlobnNqMQ==",
       linkedin: "https://www.linkedin.com/in/gayathri-c-gangadharan-a9a7aa296"
@@ -88,42 +110,11 @@ export const members: Member[] = [
   },
 
   {
-    id: "7",
-    name: "James Kim",
-    role: "CS Student — Mobile Dev",
-    image: "/professional-portrait-young-korean-man-app-develop.jpg",
-    bio: "Cross-platform mobile developer crafting seamless experiences for iOS and Android. Focused on performance and delightful micro-interactions.",
-    socials: {
-      instagram: "#",
-      twitter: "#",
-      linkedin: "#"
-    }
-  },
-
-  {
-    id: "8",
-    name: "Nina Patel",
-    role: "CS Student — Cloud & DevOps",
-    image: "/professional-portrait-young-indian-woman-cloud-eng.jpg",
-    bio: "Infrastructure enthusiast automating everything from deployments to monitoring. Passionate about making teams ship faster and more reliably.",
-    socials: {
-      twitter: "#",
-      youtube: "#",
-      linkedin: "#"
-    }
-  },
-
-  {
     id: "9",
-    name: "Oliver Wright",
-    role: "CS Student — Game Dev",
-    image: "/professional-portrait-young-man-game-developer-cre.jpg",
-    bio: "Game developer and graphics programmer pushing the boundaries of real-time rendering. Creating immersive worlds that tell compelling stories.",
-    socials: {
-      instagram: "#",
-      twitter: "#",
-      youtube: "#",
-      linkedin: "#"
-    }
+    name: "Mohamed Azeem",
+    role: "CS Student — Member",
+    image: "/aseem.jpeg",
+    bio: "To enhance my professional skills, capabilities, and knowledge in an organization that values hard work and provides responsibilities and challenges.",
+    socials: {}
   }
 ]
