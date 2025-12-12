@@ -24,20 +24,17 @@ export const members: Member[] = [
       linkedin: "https://www.linkedin.com/in/midhunnm/"
     }
   },
-
   {
     id: "2",
-    name: "Avaneendra B",
-    role: "CS Student — Member",
-    image: "/avaneendra.jpeg",
-    bio: "B.Tech CSE student proficient in frontend and backend development. Skilled in building responsive, scalable web applications and solving technical challenges within collaborative teams.",
+    name: "Gayathri C G",
+    role: "Vice Captain",
+    image: "/gayathri.jpeg",
+    bio: "Computer Science student with a passion for problem-solving and innovation. Seeking opportunities to apply technical skills in software development, data analysis, and algorithm design to contribute to cutting-edge projects.",
     socials: {
-      instagram: "https://www.instagram.com/avaneendra_appooz/",
-      youtube: "https://www.youtube.com/@Avaneendra-Appooz",
-      linkedin: "https://www.linkedin.com/in/aham-avaneendra/"
+      instagram: "https://www.instagram.com/gayathri_c_g?igsh=MWJ3MXhkdGlobnNqMQ==",
+      linkedin: "https://www.linkedin.com/in/gayathri-c-gangadharan-a9a7aa296"
     }
   },
-
   {
     id: "3",
     name: "Darsana M S",
@@ -96,16 +93,16 @@ export const members: Member[] = [
       linkedin: "https://www.linkedin.com/in/gauthamsudheer001/"
     }
   },
-
   {
     id: "8",
-    name: "Gayathri C G",
-    role: "Vice Captain",
-    image: "/gayathri.jpeg",
-    bio: "Computer Science student with a passion for problem-solving and innovation. Seeking opportunities to apply technical skills in software development, data analysis, and algorithm design to contribute to cutting-edge projects.",
+    name: "Avaneendra B",
+    role: "CS Student — Member",
+    image: "/avaneendra.jpeg",
+    bio: "B.Tech CSE student proficient in frontend and backend development. Skilled in building responsive, scalable web applications and solving technical challenges within collaborative teams.",
     socials: {
-      instagram: "https://www.instagram.com/gayathri_c_g?igsh=MWJ3MXhkdGlobnNqMQ==",
-      linkedin: "https://www.linkedin.com/in/gayathri-c-gangadharan-a9a7aa296"
+      instagram: "https://www.instagram.com/avaneendra_appooz/",
+      youtube: "https://www.youtube.com/@Avaneendra-Appooz",
+      linkedin: "https://www.linkedin.com/in/aham-avaneendra/"
     }
   },
 
@@ -117,4 +114,5 @@ export const members: Member[] = [
     bio: "To enhance my professional skills, capabilities, and knowledge in an organization that values hard work and provides responsibilities and challenges.",
     socials: {}
   }
+  
 ]

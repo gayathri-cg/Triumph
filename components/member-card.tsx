@@ -25,7 +25,9 @@ export function MemberCard({ member, index, onClick }: MemberCardProps) {
     <button
       onClick={onClick}
       className={cn(
-        "group relative bg-card rounded-2xl p-6 text-left transition-all duration-500 ease-out",
+        // mobile: centered  | desktop: left-aligned
+        "group relative bg-card rounded-2xl p-6 transition-all duration-500 ease-out",
+        "text-center md:text-left",
         "hover:shadow-xl hover:shadow-foreground/5 hover:-translate-y-1",
         "border border-border/50 hover:border-border",
         "focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 focus:ring-offset-background",
@@ -36,8 +38,8 @@ export function MemberCard({ member, index, onClick }: MemberCardProps) {
       <div className="absolute inset-0 rounded-2xl bg-gradient-to-br from-muted/0 via-muted/0 to-muted/50 opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
 
       <div className="relative z-10">
-        {/* Updated image container */}
-        <div className="relative w-24 h-28 mb-5 overflow-hidden rounded-xl">
+        {/* Image centered on mobile */}
+        <div className="relative w-24 h-28 mb-5 overflow-hidden rounded-xl mx-auto md:mx-0">
           <Image
             src={member.image || "/placeholder.svg"}
             alt={member.name}
